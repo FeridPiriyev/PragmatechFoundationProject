@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    background-color:goldenrod;
+    color: white;
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    border:solid black;
+    margin: 120px 50% 0 50%;
+    transform: translateX(-50%);
+    border-radius: 30px ;
+    background-color: brown;
+}
+
+.pp img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    align-items: center;
+    margin: 20px 50% 20px 50%;
+    transform: translateX(-50%);
+}
+.main_info{
+    text-align: center;
+    border-top: 1px dotted white;
+    margin: 20px;
+    padding: 20px 0;
+    border-bottom: 1px dotted white;
+}
+
+.main_info h2{
+    font-size: 35px;
+    margin:0px;
+}
+
+
+.main_info p{
+    margin: 0 60px;
+    font-size: 20px;
+}
+
+.other_info p{
+    font-size: 17px;
+    margin: 0 50px;
+    text-align: center;
+}
+
+
