@@ -1,3 +1,3 @@
 function openModal(){
-    document.querySelector(".ks-overlay").style.display="block"
+    document.querySelector('.ks-overlay').style.display='block'
 }
