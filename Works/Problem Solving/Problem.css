@@ -1,0 +1,29 @@
+.ks-overlay {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    visibility: hidden;
+}
+
+.ks-modal-content{
+    width: 500px;
+    padding: 30px;
+    background: white;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.ks-btn{
+    transition: all .3s ease;
+}
+
+.ks-btn:hover{
+    background: darkblue;
+}
