@@ -1,3 +1,5 @@
+
+  
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,19 +20,19 @@
   <title>Hello, world!</title>
 </head>
 
-<body class="vh-100 d-flex justify-content-center align-items-center">
-  <div class="btn btn-primary px-5 border-0 ks-btn" onclick="openModal()">
+<body class="vh-100 d-flex justify-content-center align-items-center"onclick="findElement(event)">
+  <div class="btn btn-primary px-5 border-0 ks-btn" onclick='openModal()'>
     Open
   </div>
-  <div class="ks-overlay">
-    <div class="ks-modal-content">
-      <h2>This is heading</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quis minima, eveniet voluptatum quos, hic
-        asperiores qui provident dignissimos beatae explicabo vitae nesciunt nemo quas repellat ratione. Recusandae,
-        esse a.
-      </p>
-    </div>
+  <div class="ks-overlay"onclick='hideModal()'>
+      <div class="ks-modal-content">
+        <h2>This is heading</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quis minima, eveniet voluptatum quos, hic
+          asperiores qui provident dignissimos beatae explicabo vitae nesciunt nemo quas repellat ratione. Recusandae,
+          esse a.
+        </p>
+      </div>
   </div>
 
 
