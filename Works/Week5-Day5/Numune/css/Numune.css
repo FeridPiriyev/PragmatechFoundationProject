@@ -1,0 +1,17 @@
+.boxContainer{
+    /* border: 1px solid gray */
+    width: 100vw;
+    position: absolute;
+    top: 70px;
+    left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 200px;
+    height: 150px;
+    border: 1px solid gray;
+    margin: 10px;
+}
+
