@@ -1,0 +1,7 @@
+.item{
+    width: 400px;
+}
+
+.item div{
+    cursor: pointer;
+}
