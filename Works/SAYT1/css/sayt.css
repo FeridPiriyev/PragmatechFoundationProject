@@ -118,18 +118,19 @@ button a{
 
 /* Footer Start */
 footer{
-    background: #000410;
+    background: #FCF9FC;
     color: #fff;
 }
 footer .about h1{
     font-weight: 700;
     font-size: 18px;
+    color: black;
 }
 
 footer .about p{
 
     margin: 30px 0 0 0;
-    color: #777;
+    color: black;
     font-size: 14px;
 }
 
@@ -138,10 +139,10 @@ footer .container-fluid{
 }
 
 .FollowMe{
-    
+    color: black;
 }
 .communication{
-    
+    color: black;
 }
 
 
@@ -149,3 +150,42 @@ footer .container-fluid{
 
 
 /* Footer End */
+
+
+
+/* Slider Start */
+
+.slide-img body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #eef8ff;
+}
+
+.slide-img a{
+    text-decoration: none;
+}
+
+
+.slide-img .box{
+    width: 300px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.slide-img{
+
+    
+}
+
+
+
+
+
+/* Slider End */
+
