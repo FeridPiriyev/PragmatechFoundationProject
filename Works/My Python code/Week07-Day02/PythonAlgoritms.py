@@ -49,7 +49,7 @@ bildiyinizlə yox, bildiyinizlə ortaya
     #sum+=eded
 #print(sum)
 
-nums=[1,2,3,6,7,8,23,78,34,12]
+
 #numsKvadrat=[]
 #for eded in nums:
     #numsKvadrat.append(eded**2)
@@ -61,6 +61,22 @@ nums=[1,2,3,6,7,8,23,78,34,12]
 #print(nums)
 
 
+#nums = [1,2,3,6,7,8,23,78,34,12]
+#tekolan=[]
+#for tek in nums:
+    #if tek%2!=0:
+        #tekolan.append(tek)
+#print(tekolan)
+
+
+
+
+
+
+
+
+
+ 
 
 
 

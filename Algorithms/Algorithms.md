@@ -44,6 +44,7 @@ for herf in str:
     for sait in saitler:
         if herf==sait:
             saitSayi+=1
+print(saitSayi)
 ```
 
 print(saitSayi)
@@ -66,7 +67,11 @@ nums.sort(reverse=True)
 print(nums)
 ```
 
-### 10.Ədədlərin kvadratı
+### 10. Reqemlerinin cemi en boyuk
+
+
+
+### 11.Ədədlərin kvadratı
 
 ```
 nums=[1,2,3,6,7,8,23,78,34,12]
@@ -77,3 +82,16 @@ for eded in nums:
 
 print(numsKvadrat)
 ```
+### 12. Tək ədədlər
+
+```
+nums = [1,2,3,6,7,8,23,78,34,12]
+tekolan=[]
+for tek in nums:
+    if tek%2!=0:
+        tekolan.append(tek)
+print(tekolan)
+```
+
+
+
