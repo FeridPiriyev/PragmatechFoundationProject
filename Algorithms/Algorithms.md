@@ -34,16 +34,16 @@ print(sozlereBolunmusCumle)
 
 
 ### 4.str daxilinde nece sait samit oldugunu tap
-
-"""saitler=["a","i","u","o","ə","e","ı"]
+```
+saitler=["a","i","u","o","ə","e","ı"]
 saitSayi=0
 for herf in str:
     for sait in saitler:
         if herf==sait:
             saitSayi+=1
+```
 
-
-print(saitSayi)"""
+print(saitSayi)
 
 
 ### 8.Ədədlərin cəmi
