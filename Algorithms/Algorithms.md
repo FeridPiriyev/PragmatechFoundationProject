@@ -49,6 +49,19 @@ print(saitSayi)
 
 print(saitSayi)
 
+### 5.str daxilinde son 2 sozu silen metod
+
+
+### 6.2 string halına gətir
+```
+str="Proqramlaşdırma nə qədər çox şey bildiyinizlə yox, bildiyinizlə ortaya çıxardığınız işlərlə maraqlanır"
+ayirma=str.split(",")
+
+print(ayirma)
+```
+
+
+### 7
 
 ### 8.Ədədlərin cəmi
 ```

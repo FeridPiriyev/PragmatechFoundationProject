@@ -68,7 +68,13 @@ bildiyinizlə yox, bildiyinizlə ortaya
         #tekolan.append(tek)
 #print(tekolan)
 
+#str="Proqramlaşdırma nə qədər çox şey bildiyinizlə yox, bildiyinizlə ortaya çıxardığınız işlərlə maraqlanır"
+#ayirma=str.split(",")
 
+#print(ayirma)
+
+
+   
 
 
 
