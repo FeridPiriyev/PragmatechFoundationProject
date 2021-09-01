@@ -43,11 +43,24 @@ bildiyinizlə yox, bildiyinizlə ortaya
 
 
 #Ədədlərin cəmi
+#nums=[1,2,3,6,7,8,23,78,34,12]
+#sum=0
+#for eded in nums:
+    #sum+=eded
+#print(sum)
+
 nums=[1,2,3,6,7,8,23,78,34,12]
-sum=0
-for eded in nums:
-    sum+=eded
-print(sum)
+#numsKvadrat=[]
+#for eded in nums:
+    #numsKvadrat.append(eded**2)
+
+
+#print(numsKvadrat)
+
+#nums.sort(reverse=True)
+#print(nums)
+
+
 
 
 

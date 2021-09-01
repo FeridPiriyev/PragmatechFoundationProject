@@ -8,22 +8,25 @@ bildiyinizlə yox, bildiyinizlə ortaya
 
 
 ### 1.str daxilində neçə xarakter var
- print(len(str))
+```
+print(len(str))
+```
 
 
 ### 2.str daxilinde herflerin sayi
-* bosluq= " "
+```
+bosluq= " "
 bosluqSayi=0
 for xarakter in str:
     if xarakter==bosluq:
         bosluqSayi+=1
 
 print(len(str)-bosluqSayi)
-
+```
 
 ### 3.str daxilindeki sozleri ayri massivde yaz
-
-* bosluq= " "
+```
+ bosluq= " "
 bosluqSayi=0
 for xarakter in str:
     if xarakter==bosluq:
@@ -31,7 +34,7 @@ for xarakter in str:
 
 sozlereBolunmusCumle=str.split(" ")
 print(sozlereBolunmusCumle)
-
+```
 
 ### 4.str daxilinde nece sait samit oldugunu tap
 ```
@@ -47,9 +50,30 @@ print(saitSayi)
 
 
 ### 8.Ədədlərin cəmi
-
+```
 nums=[1,2,3,6,7,8,23,78,34,12]
 sum=0
 for eded in nums:
     sum+=eded
 print(sum)
+```
+
+### 9. Böyükdən kiçiyə
+```
+nums=[1,2,3,6,7,8,23,78,34,12]
+
+nums.sort(reverse=True)
+print(nums)
+```
+
+### 10.Ədədlərin kvadratı
+
+```
+nums=[1,2,3,6,7,8,23,78,34,12]
+numsKvadrat=[]
+for eded in nums:
+    numsKvadrat.append(eded**2)
+
+
+print(numsKvadrat)
+```
