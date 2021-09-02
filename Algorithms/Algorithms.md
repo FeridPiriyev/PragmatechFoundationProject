@@ -49,10 +49,9 @@ print(saitSayi)
 
 print(saitSayi)
 
-### 5.str daxilinde son 2 sozu silen metod
 
 
-### 6.2 string halına gətir
+### 5.2 string halına gətir
 ```
 str="Proqramlaşdırma nə qədər çox şey bildiyinizlə yox, bildiyinizlə ortaya çıxardığınız işlərlə maraqlanır"
 ayirma=str.split(",")
@@ -61,9 +60,16 @@ print(ayirma)
 ```
 
 
-### 7
+### 6.stringSearch
+```
+def stringSearch(_word):
+    if _word in str:
+        print(f"{_word} sozu verilen cumlede movcuddur")
+    else:
+            print(f"{_word} sozu verilen cumlede movcud deyil")
+```
 
-### 8.Ədədlərin cəmi
+### 7.Ədədlərin cəmi
 ```
 nums=[1,2,3,6,7,8,23,78,34,12]
 sum=0
@@ -72,7 +78,7 @@ for eded in nums:
 print(sum)
 ```
 
-### 9. Böyükdən kiçiyə
+### 8. Böyükdən kiçiyə
 ```
 nums=[1,2,3,6,7,8,23,78,34,12]
 
@@ -80,11 +86,18 @@ nums.sort(reverse=True)
 print(nums)
 ```
 
-### 10. Reqemlerinin cemi en boyuk
+### 9. Reqemlerinin cemi en boyuk
+```
+nums=[1,2,3,6,7,8,23,78,34,12,43]
+reqemCemiMassivi=[]
+for num in nums:
+    sum=0
+    for h in str(num):
+        sum+=int(h)
+    reqemCemiMassivi.append(sum)
+```
 
-
-
-### 11.Ədədlərin kvadratı
+### 10.Ədədlərin kvadratı
 
 ```
 nums=[1,2,3,6,7,8,23,78,34,12]
@@ -95,7 +108,7 @@ for eded in nums:
 
 print(numsKvadrat)
 ```
-### 12. Tək ədədlər
+### 11. Tək ədədlər
 
 ```
 nums = [1,2,3,6,7,8,23,78,34,12]

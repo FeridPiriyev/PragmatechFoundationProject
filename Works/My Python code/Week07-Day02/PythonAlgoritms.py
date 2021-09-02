@@ -74,6 +74,15 @@ bildiyinizlə yox, bildiyinizlə ortaya
 #print(ayirma)
 
 
+nums=[1,2,3,6,7,8,23,78,34,12,43]
+reqemCemiMassivi=[]
+for num in nums:
+    sum=0
+    for h in str(num):
+        sum+=int(h)
+    reqemCemiMassivi.append(sum)
+
+
    
 
 
