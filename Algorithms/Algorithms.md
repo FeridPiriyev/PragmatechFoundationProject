@@ -119,5 +119,10 @@ for tek in nums:
 print(tekolan)
 ```
 
+### 12.https://www.hackerrank.com/challenges/py-hello-world/problem
+```
+print "Hello, World!"
+```
+
 
 
