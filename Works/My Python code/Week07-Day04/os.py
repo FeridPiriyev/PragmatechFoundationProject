@@ -1,0 +1,1 @@
+fayl=open("C:\Users\user\Desktop\Demo.folder" "w")

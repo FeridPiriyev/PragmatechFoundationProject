@@ -125,4 +125,46 @@ print "Hello, World!"
 ```
 
 
+### 13.https://www.hackerrank.com/challenges/py-if-else/problem
+```
+n = int(input())
+if n % 2 == 1:
+    print("Weird")
+elif n % 2 == 0 and 2 <= n <= 5:
+    print("Not Weird")
+elif n % 2 == 0 and 6 <= n <= 20:
+    print("Weird")
+else:
+    print("Not Weird")
+```
+### 14. https://www.hackerrank.com/challenges/python-arithmetic-operators/problem
+```
+a = int(raw_input())
+b = int(raw_input())
+print(a+b)
+print(a-b)
+print(a*b)
+```
+
+### 15.https://www.hackerrank.com/challenges/python-division/problem
+```
+if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+    print(a//b)
+    print(a/b)
+```
+
+### 16. https://www.hackerrank.com/challenges/python-print/problem
+```
+from __future__ import print_function
+
+if __name__ == '__main__':
+    n = int(raw_input())
+    
+for i in range (n):
+    print(i+1,end="")
+```
+
+
 
