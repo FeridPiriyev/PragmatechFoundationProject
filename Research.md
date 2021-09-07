@@ -47,26 +47,46 @@
 ## HTTPS requestlər nələrdir
 - HTTP web browser ilə web server arasında əlaqə qurmanızı təmin edən protokoldur.
 - Methodlar:
-- 1. Get:
-- Bu metod serverdən məlumat almaq üçündür. Get metodu ən çox istifadə olunan metoddur. Get metodu mənbələrə çatmaq üçün istifadə olunur.
-- 2. Post:
-- Bu metodla serverə məlumatlar yazdıra bilirsiniz.
-- 3. Put:
-- Post metoduda get metodu kimi çox istifadə olunur. Bu metod servis təminatçı üzərində olan bir mənbəni yeniləyə bilərsiniz. Hansı qaynağı güncəlləmək istəyirsinizsə qaynağın id-sini daxil etməlisiniz.
-- 4. Delete:
-- Bu metod ilə serverdəki hər hansı məlumatı silə bilərsiniz.
-- 5. Connect:
-- Bir proxy serverindən başqa serverə bağlanmaq üçendür.
-- 6. Options:
-- Bu metod mənbə üçün işlədə biləcək HTTP metodlarını serverdən sorğulamaq üçün işlədilir.
-- 7. Trace:
-- Diaqnoz məqsədli işlədilən bir metoddur. Server bu metodla gələn mesajın mövzusunu cavab bölməsinə geri göndərməlidir.
-- 8. Patch:
-- Bu metod istədiyiniz kiçik çaplı dəyişikliyin etmənizə kömək edir.
-- 9. Search:
-- Bir serverin altındakı mənbəni sorğulamaq üçün işlədilir.
-- 10. Head:
-- Serverdən bir mənbəni istəmək üçün istifadə olunur
+- Get:
+```
+Bu metod serverdən məlumat almaq üçündür. Get metodu ən çox istifadə olunan metoddur. Get metodu mənbələrə çatmaq üçün istifadə olunur.
+```
+- Post:
+```
+Bu metodla serverə məlumatlar yazdıra bilirsiniz.
+```
+- Put:
+```
+Post metoduda get metodu kimi çox istifadə olunur. Bu metod servis təminatçı üzərində olan bir mənbəni yeniləyə bilərsiniz. Hansı qaynağı güncəlləmək istəyirsinizsə qaynağın id-sini daxil etməlisiniz.
+```
+- Delete:
+```
+Bu metod ilə serverdəki hər hansı məlumatı silə bilərsiniz.
+```
+- Connect:
+```
+Bir proxy serverindən başqa serverə bağlanmaq üçendür.
+```
+- Options:
+```
+Bu metod mənbə üçün işlədə biləcək HTTP metodlarını serverdən sorğulamaq üçün işlədilir.
+```
+- Trace:
+```
+Diaqnoz məqsədli işlədilən bir metoddur. Server bu metodla gələn mesajın mövzusunu cavab bölməsinə geri göndərməlidir.
+```
+- Patch:
+```
+Bu metod istədiyiniz kiçik çaplı dəyişikliyin etmənizə kömək edir.
+```
+- Search:
+```
+ Bir serverin altındakı mənbəni sorğulamaq üçün işlədilir.
+```
+- Head:
+```
+Serverdən bir mənbəni istəmək üçün istifadə olunur
+```
 
 
 
