@@ -1,0 +1,358 @@
+
+/* Navbar  Start*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+section{
+    background-color: #f5f5f5;
+}
+.navbaryan{
+    padding-top: 15px;
+    padding-bottom: 0;
+}
+
+.col-6 .navbaryan ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    position: relative;
+}
+
+.col-6 .navbaryan ul li{
+    display: flex;
+}
+
+.col-6 .navbaryan ul li i{
+    padding-top: 15px;
+}
+
+
+.col-6 .navbaryan ul li a{
+    margin: 10px;
+}
+
+.languages{
+    position: absolute;
+    right: 100px;
+    text-align: center;
+}
+
+.active-lang{
+    position: absolute;
+    display: none;
+    border: 1px solid black;
+    width: 70px;
+    height: 40px;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.active-lang.az{
+    display: block;
+}
+
+.az-lang{
+    display: none;
+}
+
+.lang-box{
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+
+.lang-box-active{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+/* Navbar End*/
+
+
+
+/* Menu Start */
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.menu .brand img{
+    width: 90px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 20;
+}
+
+.menuyan ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    position: relative;
+}
+
+.menuyan ul li{
+    font-size: 20px;
+
+}
+
+.menu .menuyan ul li a{
+    color: #b5b5b5;
+    margin: 15px;
+}
+
+
+/* Menu End */
+
+/* Mega Menu Start */
+
+
+
+
+
+/* Mega menu End */
+
+
+
+/* Video Start */
+
+.section video{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.section h1{
+    text-align: center;
+    font-size: 6rem;
+    align-items: center;
+    background: #fff;
+    z-index: 1;
+}
+
+.video-container{
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+/* Video End */
+
+
+
+
+/* Slider Start*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cell{
+    width: 33%;
+    height: 350px;
+    margin: 0 15px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.cell img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.basliq h1{
+    color: #b6b6b4;
+    font-size: 26px;
+    text-align: center;
+}
+
+
+/* Slider End*/
+
+/* Icon bar Start*/
+.icons{
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 100;
+}
+
+.icons ul{
+    padding: initial;
+}
+
+.icons ul li{
+    height: 40px;
+    width: 40px;
+    padding-left: 12px;
+    padding-top: 6px;
+    margin-top: 5px;
+    color: #fff;
+    background: #000;
+}
+
+
+
+.icons ul li:hover{
+    padding-left: 30px;
+    width: 80px;
+    transition: 1s;
+}
+
+/* Icon bar End*/
+
+
+
+
+
+
+
+
+/*  Footer start*/
+footer{
+    background-color: #f5f5f5;
+}
+
+.son{
+    display: flex;
+    padding: 50px 0;
+}
+
+
+.col img{
+    width: 70px;
+    height: 70px;
+}
+
+
+
+.col p{
+    font-size: 12px;
+    color: #b6b6b4;
+}
+
+.col .affiiates img{
+    height: 50px;
+    width: 40px;
+    margin: 5px;
+}
+
+.connect .qr-code img{
+    width: 120px;
+    height: 140px;
+}
+
+
+.connect ul{
+    display: flex;
+}
+
+.col a i{
+    color: white;
+    font-size: inherit;
+}
+
+.footer-icons {
+    width: 185px;
+    display: flex;
+    justify-content: space-around;
+    color: #1c1919;
+    list-style: none;
+}
+.footer-icons li{
+    border-radius: 15%;
+    width: 40px;
+    height: 40px;
+    color: white;
+    margin-top: 20px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.footer-icons li:hover{
+    color: black;
+    background-color: #3155a4;
+    transition: all ease 0s;
+}
+
+
+.col h1{
+    font-size: 15px;
+    color: #b8b8b8;
+    font-family: sans-serif;
+}
+
+.col button{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 8px 30px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.col button:hover{
+    transition: 1s;
+    background: #E3E3E3;
+}
+.footerson ul{
+    list-style: none;
+    display: flex;
+    margin: 20px;
+    text-align: center;
+    
+}
+
+.footerson ul li{
+    margin: 15px 20px;
+    font-size: 13px;
+    text-align: center;
+}
+
+
+.container ul li a{
+    color: #444444;
+}
+
+
+.footer-bottom {
+    background-color: #f5f5f5;
+    padding: 15px 0 5px;
+    height: 55px;
+}
+
+.col a{
+    color: black;
+    font-family: serif;
+}
+.hq h1{
+    color: black;
+    font-size: 24px;
+}
+/*Footer End*/
