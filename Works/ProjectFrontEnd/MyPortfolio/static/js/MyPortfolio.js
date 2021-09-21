@@ -23,3 +23,5 @@ for(let i=0;i<langs.length;i++){
         activeLangs[i].style.display="block"
     })
 }
+
+

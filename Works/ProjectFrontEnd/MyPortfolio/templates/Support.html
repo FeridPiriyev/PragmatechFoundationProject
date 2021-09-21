@@ -5,26 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-        <!--Goole icon-->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <!-- Bootstrap kod-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-            integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-        <!--Font Awesome-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-            integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="shortcut icon" href="img/logo.png">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../static/css/Support.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seansse.az</title>
+    <!--Goole icon-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="{{url_for('static', filename='css/MyPortfolio.css')}}">
+    <!--SLIDER-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap kod-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Shortcut Icon-->
+    <link rel="shortcut icon" href="{{url_for('static', filename='img/logo.png')}}">
 </head>
 <body>
    <!--Navbar-->
@@ -72,7 +72,7 @@
             <div class="col">
                 <div class="menu">
                     <div class="brand">
-                        <img src="../static/img/logo.png" alt="">
+                        <img src="{{url_for('static', filename='img/logo.png')}}" alt="">
                     </div>
                     <div class="menuyan">
                         <ul>
@@ -89,7 +89,7 @@
                 <h1>CONTACT US</h1>
         </div>
         <div class="az">
-            <img src="../static/img/Az.png" alt="">
+            <img src="{{url_for('static', filename='img/Az.png')}}" alt="">
         </div>
         
         <div class="container">
@@ -129,7 +129,7 @@
                     <div class="son">
                         
                         <div class="col">
-                            <img src="../static/img/logo.png" alt="">
+                            <img src="{{url_for('static', filename='img/logo.png')}}" alt="">
                             <p>©2021 Jeunesse Global Holdings, LLC. All Rights Reserved.</p>
                             <p>Jeunesse Global (Europe) Limited
                                 Frodsham Business Centre
@@ -142,11 +142,11 @@
                         <div class="col">
                                 <h1>AFFILIATES</h1>
                                 <div class="affiiates">
-                                    <img src="../static/img/dsa.png" alt="">
-                                    <img src="../static/img/dsn.png" alt="">
-                                    <img src="../static/img/100dsn.png" alt="">
+                                    <img src="{{url_for('static', filename='img/dsn.png')}}" alt="">
+                                    <img src="{{url_for('static', filename='img/dsa.png')}}" alt="">
+                                    <img src="{{url_for('static', filename='img/100dsn.png')}}" alt="">
                                     <div class="qr-code">
-                                        <img src="../static/img/WhatsApp Image 2021-09-11 at 20.33.39.jpg" alt="">
+                                        <img src="{{url_for('static', filename='img/qr-cod.jpeg')}}" alt="">
                                     </div>
                                 </div>
                         </div>
