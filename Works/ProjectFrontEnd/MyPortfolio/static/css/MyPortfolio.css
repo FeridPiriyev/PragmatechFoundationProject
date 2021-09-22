@@ -111,6 +111,7 @@ section{
 }
 
 .menuyan ul li{
+
     font-size: 20px;
 
 }
@@ -125,7 +126,58 @@ section{
 
 /* Mega Menu Start */
 
+#megam-box{
+    position: relative;
+}
 
+#megam-box:hover #megamenu,#megamenu:hover{
+    display: flex;
+}
+
+#megamenu{
+    position: absolute;
+    display: none;
+    right: 30%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    z-index: 7;
+    background-color: #f3f3f3;
+    height: 300px;
+    width: 1400px;
+}
+
+#megamenu .menu-item{
+    display: flex;
+    padding: 15px 20px;
+    color: white;
+    background-color: #f3f3f3;
+}
+
+#megamenu .look h1{
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    align-items: center;
+    bottom: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    color: black;
+}
+
+#megamenu .menu-item img{
+    height: 100px;
+    width: 120px;
+}
+
+#megamenu p {
+    color: black;
+    font-size: 17px;
+    top: 50%;
+    padding: 20px;
+    transform: translate(70%,90%);
+}
 
 
 
