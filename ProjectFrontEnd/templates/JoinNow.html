@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <!--CSS-->
+
+    <section>
+        <form action="action_page.php" method="POST" style="border:1px solid #ccc">
+            <div class="container">
+              <h1>Sign Up</h1>
+              <p>Join Our Family</p>
+              <hr>
+              
+              <label for="username"><b>UserName</b></label>
+              <input type="text" placeholder="UserName" name="UserName" required>
+
+              <label for="surname"><b>SurName</b></label>
+              <input type="text" placeholder="SurName" name="SurName" required>
+
+          
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Password" name="psw" required>
+
+              <label for="email"><b>Gmail</b></label>
+              <input type="email" placeholder="Gmail" name="email" required>
+
+              <label for="tel"><b>Tel</b></label>
+              <input type="tel" placeholder="050-000-00-00" name="tel" required>
+
+              <label for="place"><b>Place</b></label>
+              <input type="text" placeholder="Place" name="place" required>
+          
+              <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+            
+              <div class="clearfix">
+                <a href="forgot.html"><button type="button" class="cancelbtn">Forgot Password?</button></a>
+                <button type="submit" class="signupbtn">Sign In</button>
+              </div>
+            </div>
+          </form>
+        
+    </section>
+    
+{% endblock %}

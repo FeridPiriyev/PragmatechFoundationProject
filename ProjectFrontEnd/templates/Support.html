@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <!--CSS-->
+   
+    <body>
+
+        <div class="contact">
+                <h1>CONTACT US</h1>
+        </div>
+        <div class="az">
+            <img src="{{url_for('static', filename='img/Az.png')}}" alt="">
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="us">
+                        <div class="col-4">
+                            <ul>
+                                <li>
+                                    <i class="far fa-envelope"></i>
+                                </li>
+                                <h1>EMAIL US</h1>
+                                <a href="https://mail.google.com/mail/u/0/">seanesse.az@gmail.com</a>
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <ul>
+                                <li>
+                                    <i class="fas fa-phone"></i>
+                                    <h1>Phone</h1>
+                                    
+                                    <a href="https://wa.me/message/POQGKFYSIKCZA1">0705662929</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    <hr><hr>
+        <form action="" method="POST">
+            <input type="text" name="name"  placeholder="Name"><br><br>
+            <input type="email" name="gmail" placeholder="Gmail"><br><br>
+            <input type="text" name="text"  placeholder="Text..."><br><br>
+            <input type="submit" value="Submit">
+        </form>
+
+{% endblock %}

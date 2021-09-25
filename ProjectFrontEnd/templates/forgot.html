@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <!--CSS-->
+
+  <body>
+    <section>
+        <form action="action_page.php" style="border:1px solid #ccc">
+            <div class="container">
+              <h1>Forgot Password</h1>
+              <p> Enter gmail or phone to update the password</p>
+              <hr>
+              
+          
+              <label for="psw"><b>Gmail or Tel</b></label>
+              <input type="text" placeholder="Gmail or Tel" name="psw" required>
+          
+          
+                <button type="submit" class="signupbtn">Submit</button>
+              </div>
+            </div>
+        </form>
+    </section>
+  </body>
+
+{% endblock %}
