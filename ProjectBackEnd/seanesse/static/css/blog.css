@@ -1,0 +1,42 @@
+.metin{
+    padding-left: 100px;
+}
+
+#basliq{
+    font-size: 25px;
+}
+
+#date{
+    font-size: 21px;
+    color: #bbb ;
+    
+}
+
+#sekil{
+    height: 400px;
+    padding-left: 250px;
+}
+
+
+#bas{
+    color: #df6f9e;
+    font-size: 25px;
+}
+
+#bit{
+    color: #726d6d;
+    
+    font-family: serif;
+}
+
+#villages{
+    
+    color: #ababab;
+    font-size: 28px;
+}
+
+#aciq{
+    color: black;
+    font-size: 20px;
+    
+}

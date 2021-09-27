@@ -563,6 +563,463 @@ function main() {
 }
 ```
 
-### 31. 
+### 31. https://www.hackerrank.com/challenges/30-data-types/problem
+
+```
+i = 4
+d = 4.0
+s = 'HackerRank '
+
+
+input_int=int(input())
+input_double=float(input())
+input_string=str(input())
+
+
+print(i+input_int)
+print(d+input_double)
+print(s+input_string)
+```
+
+### 32. https://www.hackerrank.com/challenges/js10-objects/problem
+
+```
+'use strict';
+
+process.stdin.resume();
+process.stdin.setEncoding('utf-8');
+
+let inputString = '';
+let currentLine = 0;
+
+process.stdin.on('data', inputStdin => {
+    inputString += inputStdin;
+});
+
+process.stdin.on('end', _ => {
+    inputString = inputString.trim().split('\n').map(string => {
+        return string.trim();
+    });
+    
+    main();    
+});
+
+function readLine() {
+    return inputString[currentLine++];
+}
+function Rectangle(a, b) {
+    return {
+        length:a,
+        width:b,
+        perimeter:2*(a+b),
+        area:a*b
+    }
+}
+function Rectangle(a, b) {
+  this.length = a;
+  this.width = b;
+  this.area = a * b;
+  this.perimeter = 2 * (a + b);
+}
+
+function main() {
+    const a = +(readLine());
+    const b = +(readLine());
+    
+    const rec = new Rectangle(a, b);
+    
+    console.log(rec.length);
+    console.log(rec.width);
+    console.log(rec.perimeter);
+    console.log(rec.area);
+}
+```
+
+### 33. https://www.hackerrank.com/challenges/js10-let-and-const/problem
+```
+'use strict';
+
+process.stdin.resume();
+process.stdin.setEncoding('utf-8');
+
+let inputString = '';
+let currentLine = 0;
+
+process.stdin.on('data', inputStdin => {
+    inputString += inputStdin;
+});
+
+process.stdin.on('end', _ => {
+    inputString = inputString.trim().split('\n').map(string => {
+        return string.trim();
+    });
+    
+    main();    
+});
+
+function readLine() {
+    return inputString[currentLine++];
+}
+
+function main() {
+    // Write your code here. Read input using 'readLine()' and print output using 'console.log()'.
+    
+    // Print the area of the circle:
+    
+    // Print the perimeter of the circle:
+    const PI=Math.PI;
+    let r=readLine();
+
+    var area=parseFloat(PI*r*r);
+    console.log(area);
+  
+    var peri=parseFloat(2*PI*r);
+    console.log(peri);
+    try {    
+        // Attempt to redefine the value of constant variable PI
+        PI = 0;
+        // Attempt to print the value of PI
+        console.log(PI);
+    } catch(error) {
+        console.error("You correctly declared 'PI' as a constant.");
+    }
+}
+```
+
+### 34. https://www.hackerrank.com/challenges/js10-switch/problem
+```
+'use strict';
+
+process.stdin.resume();
+process.stdin.setEncoding('utf-8');
+
+let inputString = '';
+let currentLine = 0;
+
+process.stdin.on('data', inputStdin => {
+    inputString += inputStdin;
+});
+
+process.stdin.on('end', _ => {
+    inputString = inputString.trim().split('\n').map(string => {
+        return string.trim();
+    });
+    
+    main();    
+});
+
+function readLine() {
+    return inputString[currentLine++];
+}
+
+function getLetter(s) {
+    let letter;
+    // Write your code here
+    
+    return letter;
+}
+function getLetter(s) {
+    let letter;
+    switch (true) {
+        case 'a,e,i,o,u'.includes(s[0]):
+            letter = 'A';
+            break;
+        case 'b,c,d,f,g'.includes(s[0]):
+            letter = 'B';
+            break;
+        case 'h,j,k,l,m'.includes(s[0]):
+            letter = 'C';
+            break;
+        case 'n,p,q,r,s,t,v,w,x,y,z'.includes(s[0]):
+            letter = 'D';
+            break;
+    }
+    return letter;
+}
+
+function main() {
+    const s = readLine();
+    
+    console.log(getLetter(s));
+}
+```
+### 35. https://www.hackerrank.com/challenges/js10-arrays/problem
+```
+'use strict';
+
+process.stdin.resume();
+process.stdin.setEncoding('utf-8');
+
+let inputString = '';
+let currentLine = 0;
+
+process.stdin.on('data', inputStdin => {
+    inputString += inputStdin;
+});
+
+process.stdin.on('end', _ => {
+    inputString = inputString.trim().split('\n').map(string => {
+        return string.trim();
+    });
+    
+    main();    
+});
+
+function readLine() {
+    return inputString[currentLine++];
+}
+
+function getSecondLargest(nums) {
+    // Complete the function
+   let first = nums[0]; 
+   let second = -1;
+    for (let i = 0; i < nums.length; i++) {
+    if (nums[i] > first) {
+        second = first;
+        first = nums[i]
+    }
+
+    if (nums[i] > second && nums[i] < first) {
+        second = nums[i];
+    }
+}
+
+
+return second;
+}
+
+function main() {
+    const n = +(readLine());
+    const nums = readLine().split(' ').map(Number);
+    
+    console.log(getSecondLargest(nums));
+}
+```
+
+### 36. https://www.hackerrank.com/challenges/js10-throw/problem
+```
+'use strict';
+
+process.stdin.resume();
+process.stdin.setEncoding('utf-8');
+
+let inputString = '';
+let currentLine = 0;
+
+process.stdin.on('data', inputStdin => {
+    inputString += inputStdin;
+});
+
+process.stdin.on('end', _ => {
+    inputString = inputString.trim().split('\n').map(string => {
+        return string.trim();
+    });
+    
+    main();    
+});
+
+function readLine() {
+    return inputString[currentLine++];
+}
+function isPositive(a) {
+    if(a > 0){
+        return 'YES';
+    }
+    else{
+        throw (a === 0 ? new Error('Zero Error') : new Error('Negative Error'));
+    }
+}
+
+
+```
+
+### 37. https://www.hackerrank.com/challenges/js10-try-catch-and-finally/problem
+```
+'use strict';
+
+process.stdin.resume();
+process.stdin.setEncoding('utf-8');
+
+let inputString = '';
+let currentLine = 0;
+
+process.stdin.on('data', inputStdin => {
+    inputString += inputStdin;
+});
+
+process.stdin.on('end', _ => {
+    inputString = inputString.trim().split('\n').map(string => {
+        return string.trim();
+    });
+    
+    main();    
+});
+
+function readLine() {
+    return inputString[currentLine++];
+}
+
+/*
+ * Complete the reverseString function
+ * Use console.log() to print to stdout.
+ */
+function reverseString(s) {
+    
+}
+function reverseString(s) {
+    try {
+        s = s.split('').reverse().join('');
+    }
+    catch(e) {
+        console.log(e.message);
+    }
+    finally {
+        console.log(s);
+    }
+}
+
+function main() {
+    const s = eval(readLine());
+    
+    reverseString(s);
+}
+```
+
+### 38. https://www.hackerrank.com/challenges/js10-class/problem
+```
+/*
+ * Implement a Polygon class with the following properties:
+ * 1. A constructor that takes an array of integer side lengths.
+ * 2. A 'perimeter' method that returns the sum of the Polygon's side lengths.
+ */
+class Polygon{
+    constructor(sides){        
+        this.sides = sides
+    }
+    perimeter() {
+        return this.sides.reduce(function add(a,b){return a+b;})
+    } 
+}
+
+const rectangle = new Polygon([10, 20, 10, 20]);
+const square = new Polygon([10, 10, 10, 10]);
+const pentagon = new Polygon([10, 20, 30, 40, 43]);
+
+console.log(rectangle.perimeter());
+console.log(square.perimeter());
+console.log(pentagon.perimeter());
+```
+
+### 39. https://www.hackerrank.com/challenges/js10-create-a-button?hr_b=1
+## HTML
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/button.css" type="text/css">
+    </head>
+    
+    <body>
+        <button id="btn" onclick="button()">0</button>
+        <script src="js/button.js" type="text/javascript"></script>
+    </body>
+</html>
+```
+## CSS
+```
+#btn {
+    width: 96px;
+    height: 48px;
+    font-size: 24px;
+}
+```
+
+## JS
+```
+function button(){
+    document.getElementById("btn").innerHTML++;
+}
+```
+
+### 40. https://www.hackerrank.com/challenges/js10-buttons-container?hr_b=1
+## HTML
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/buttonsGrid.css" type="text/css">
+    </head>
+    
+    <body>
+        
+        <div id="btns" class="btnContainer">
+
+            <button id="btn1" class="btnStyle">1</button>
+
+            <button id="btn2" class="btnStyle">2</button>
+
+            <button id="btn3" class="btnStyle">3</button>
+
+            <button id="btn4" class="btnStyle">4</button>
+
+            <button id="btn5" class="btnStyle" onClick="rotate()">5</button>
+
+            <button id="btn6" class="btnStyle">6</button>
+
+            <button id="btn7" class="btnStyle">7</button>
+
+            <button id="btn8" class="btnStyle">8</button>
+
+            <button id="btn9" class="btnStyle">9</button>
+        </div>
+        <script src="js/buttonsGrid.js" type="text/javascript"></script>
+    </body>
+</html>
+```
+
+## CSS
+```
+.btnContainer {
+width: 75%;
+}
+
+.btnContainer > .btnStyle {
+width: 30%;
+height: 48px;
+font-size: 24px;
+}
+```
+
+## JS
+```
+  var l = "4";
+
+var a = ["1", "2", "3", "6", "9", "8", "7", "4"];
+
+var b = ["1", "2", "3", "6", "9", "8", "7", "4"];
+
+
+
+var rotate = function() {
+
+    for (var i = 7; i > 0; i--) {
+
+        a[i] = a[i - 1];
+
+    }
+
+    a[0] = l;
+
+    l = a[7];
+
+    for (var i = 0; i < 8; i++) {
+
+        document.getElementById("btn" + b[i]).innerText = a[i];
+
+    }
+
+}
+```
+
 
 
