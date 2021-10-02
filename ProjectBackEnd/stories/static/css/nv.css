@@ -1,0 +1,226 @@
+section .container .row .nv .col-12 .back img{
+    width:100%;
+    height:100vh;
+    object-fit:cover;
+}
+
+#haq .haqqinda{
+    display: flex;
+}
+
+
+#haq .haqqinda .col-6 img{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+}
+
+#haq .haqqinda .col-6 h1{
+    color: #58595b;
+    font-size: 23px;
+    display: flex;
+}
+
+#haq .learn-btn{
+    display: inline-block;
+    text-decoration: none;
+    color:#00a7b5;
+    border: 2px solid #00a7b5;
+    padding: 8px 30px;
+    font-size: 19px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+#haq .learn-btn:hover{
+    background: rgba(128, 128, 128, 0.377);
+    transition: 1s;
+}
+
+#video-age{
+    background-color: #00a7b5;
+    height: 370px;
+}
+
+#video-age{
+    position: relative;
+    text-align: center;
+}
+
+#video-age .video video{
+    height: 300px;
+    width: 500px;
+}
+
+
+#sonluq .son .col-6 #evvel{
+    font-size: 25px;
+    color:#777;
+}
+
+
+#sonluq .son .col-6 #esas{
+    font-size: 20px;
+    color:#777;
+}
+
+
+#sonluq .son .col-6 #sonluq{
+    font-size: 15px;
+    color:#777;
+}
+
+#almaq .almaq{
+    display: flex;
+}
+
+#sonluq .son .col-6 img{
+    width: 300px;
+    height: 500px;
+}
+
+#sonluq .son .col-6{
+    margin: 30px;
+}
+
+#sonluq .son .col-6 #esas{
+    color: #59626e;
+}
+
+
+
+#almaq .almaq h1{
+    color: #777;
+}
+
+#almaq .almaq p{
+    color: #777;
+}
+
+#almaq .almaq{
+    display:flex;
+    flex-direction:column;
+}
+
+#almaq .almaq .col-6 .number{
+    width: 60px;
+    height: 35px;
+}
+
+#almaq .almaq .col-6 img{
+    width: 300px;
+    height: 300px;
+}
+
+#almaq .almaq .bronzer{
+    background-color: white;
+}
+
+#almaq .almaq .blue{
+    background-color:#f5f5f5;
+   
+}
+
+
+
+
+
+
+
+#almaq .almaq .col-6 .learn-btn{
+    display: inline-block;
+    text-decoration: none;
+    color:#00a7b5;
+    border: 2px solid #00a7b5;
+    padding: 8px 22px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+#after .before #bef{
+    font-size: 27px;
+    text-align: center;
+    color:#423445;
+}
+
+#after .before #af{
+    font-size:20px;
+    text-align: center;
+    color:#717d8d;
+}
+
+#after .before .nv-image{
+    display:flex;
+}
+
+#after .before .nv-image .col-4 img{
+    height:200px;
+    width:300px;
+}
+
+
+#almaq .almaq .col-6 .learn-btn:hover{
+    background: rgba(128, 128, 128, 0.377);
+    transition: 1s;
+}
+
+#almaq .almaq #barcod{
+    color: red;
+}
+
+#almaq .almaq #hq{
+    color: #58595b;
+    font-size: 17px;
+}
+
+#almaq .almaq .blue .col-6 img{
+    background-color: #f5f5f5;
+}
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+
+  .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+
+

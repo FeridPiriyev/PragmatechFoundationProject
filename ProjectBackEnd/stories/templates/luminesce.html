@@ -1,0 +1,204 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <section id="age">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div id="ageless">
+                       <img src="{{url_for('static', filename='img/luminesc.jpg')}}" alt="">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="haq">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="haqqinda">
+                        <div class="col-6">
+                            <img src="{{url_for('static', filename='img/l.jpg')}}" alt="">
+                        </div>
+                        <div class="col-6">
+                            <h1>Restore youthful vitality and radiance to the skin.</h1>
+                            <p>The Luminesce® anti-aging skin care line restores youthful vitality and radiance to your skin, reduces the appearance of fine lines and wrinkles and reveals your unique glow.</p>
+                            <a href="#" type="button" class="learn-btn">WATCH VIDEO</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="video-age">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="video">
+                        <video controls>
+                            <source src="{{url_for('static', filename='video/Luminesce.mp4')}}" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="almaq">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="almaq">
+                        <div class="col-6">
+                            <img src="{{url_for('static', filename='img/l1.jpg')}}" alt="">
+                        </div>
+                        <div class="col-6">
+                            <h1>Luminesce® Cellular Rejuvenation Serum</h1>
+                            <p>TL1,072.15 Buy Now Price</p>
+                            <form action="">
+                                <input type="number" class="number">
+                            </form>
+                            <a href="#" type="button" class="learn-btn">ADD TO CART</a>
+                            <p id="barcod">Barcod No: 8681756005420</p>
+                            <p id="hq">Bring out your skin's luminous glow with this effective serum. Dermatologist-developed, this must-have serum helps minimize the look of fine lines and wrinkles to restore your skin’s youthful radiance.</p>
+                            <p id="hq">SIZE: 15 mL (0.5 oz.)</p>
+                            <button class="accordion">INGREDIENTS</button>
+                            <div class="panel">
+                                <p>
+                                    Aqua, Sodium Silicate, Argilla, Phenoxyethanol, CI 19140, CI 16035, Ethylhexylglycerin, Potassium Sorbate, Acetyl Hexapeptide-8
+                                </p>
+                            </div>
+                            <script>
+                                var acc = document.getElementsByClassName("accordion");
+                                var i;
+                                
+                                for (i = 0; i < acc.length; i++) {
+                                  acc[i].addEventListener("click", function() {
+                                    this.classList.toggle("active");
+                                    var panel = this.nextElementSibling;
+                                    if (panel.style.maxHeight) {
+                                      panel.style.maxHeight = null;
+                                    } else {
+                                      panel.style.maxHeight = panel.scrollHeight + "px";
+                                    }
+                                  });
+                                }
+                            </script>
+                        </div>
+                        <div class="col-6">
+                            <img src="{{url_for('static', filename='img/l2.jpg')}}" alt="">
+                        </div>
+                        <div class="col-6">
+                            <h1>Luminesce® Daily Moisturizing Complex</h1>
+                            <p>TL705.92 Buy Now Price</p>
+                            <form action="">
+                                <input type="number" class="number">
+                            </form>
+                            <a href="#" type="button" class="learn-btn">ADD TO CART</a>
+                            <p id="barcod">Barcod No: 8681756005420</p>
+                            <p id="hq">Maintain your luminous look. This daily facial cream provides serious protection for your skin. Apple, lentil and watermelon extracts lock in hydration while our revolutionary growth factor complex gives your skin an age-defying glow.</p>
+                            <p id="hq">SIZE: 30mL (1 oz.)</p>
+                            <button class="accordion">INGREDIENTS</button>
+                            <div class="panel">
+                                <p>
+                                    Aqua, Sodium Silicate, Argilla, Phenoxyethanol, CI 19140, CI 16035, Ethylhexylglycerin, Potassium Sorbate, Acetyl Hexapeptide-8
+                                </p>
+                            </div>
+                            <script>
+                                var acc = document.getElementsByClassName("accordion");
+                                var i;
+                                
+                                for (i = 0; i < acc.length; i++) {
+                                  acc[i].addEventListener("click", function() {
+                                    this.classList.toggle("active");
+                                    var panel = this.nextElementSibling;
+                                    if (panel.style.maxHeight) {
+                                      panel.style.maxHeight = null;
+                                    } else {
+                                      panel.style.maxHeight = panel.scrollHeight + "px";
+                                    }
+                                  });
+                                }
+                            </script>
+                            <div class="col-6">
+                                <img src="{{url_for('static', filename='img/l3.jpg')}}" alt="">
+                            </div>
+                            <div class="col-6">
+                                <h1>Luminesce® Advanced Night Repair</h1>
+                                <p>TL904.97 Buy Now Price</p>
+                                <form action="">
+                                    <input type="number" class="number">
+                                </form>
+                                <a href="#" type="button" class="learn-btn">ADD TO CART</a>
+                                <p id="barcod">Barcod No: 8681756005420</p>
+                                <p id="hq">A rich cream that corrects past environmental damage while you sleep. Advanced night repair supports your skin’s own self-repair mechanisms while fortifying it for the future. Powerful vitamins and antioxidants protect cell membranes from free radical damage. Luminesce® stem cell innovation deeply rejuvenates skin during the night.</p>
+                                <p id="hq">SIZE: 30 mL (1 oz.)</p>
+                                <button class="accordion">INGREDIENTS</button>
+                                <div class="panel">
+                                    <p>
+                                        Aqua, Sodium Silicate, Argilla, Phenoxyethanol, CI 19140, CI 16035, Ethylhexylglycerin, Potassium Sorbate, Acetyl Hexapeptide-8
+                                    </p>
+                                </div>
+                                <script>
+                                    var acc = document.getElementsByClassName("accordion");
+                                    var i;
+                                    
+                                    for (i = 0; i < acc.length; i++) {
+                                      acc[i].addEventListener("click", function() {
+                                        this.classList.toggle("active");
+                                        var panel = this.nextElementSibling;
+                                        if (panel.style.maxHeight) {
+                                          panel.style.maxHeight = null;
+                                        } else {
+                                          panel.style.maxHeight = panel.scrollHeight + "px";
+                                        }
+                                      });
+                                    }
+                                </script>
+                                <div class="col-6">
+                                    <img src="{{url_for('static', filename='img/l4.jfif')}}" alt="">
+                                </div>
+                                <div class="col-6">
+                                    <h1>Luminesce® Youth Restoring Cleanser</h1>
+                                    <p>TL411.35 Buy Now Price</p>
+                                    <form action="">
+                                        <input type="number" class="number">
+                                    </form>
+                                    <a href="#" type="button" class="learn-btn">ADD TO CART</a>
+                                    <p id="barcod">Barcod No: 8681756005420</p>
+                                    <p id="hq">Restore your skin’s natural brilliance by detoxifying deep within the cells. As the first step in the Luminesce® skincare system, this cleanser conditions and purifies at microscopic levels. Ingredients are carefully formulated to maintain the nutrients and moisture needed to support cell renewal.</p>
+                                    <p id="hq">SIZE: 90 mL (3 oz.)</p>
+                                    <button class="accordion">INGREDIENTS</button>
+                                    <div class="panel">
+                                        <p>
+                                            Aqua, Sodium Silicate, Argilla, Phenoxyethanol, CI 19140, CI 16035, Ethylhexylglycerin, Potassium Sorbate, Acetyl Hexapeptide-8
+                                        </p>
+                                    </div>
+                                    <script>
+                                        var acc = document.getElementsByClassName("accordion");
+                                        var i;
+                                        
+                                        for (i = 0; i < acc.length; i++) {
+                                          acc[i].addEventListener("click", function() {
+                                            this.classList.toggle("active");
+                                            var panel = this.nextElementSibling;
+                                            if (panel.style.maxHeight) {
+                                              panel.style.maxHeight = null;
+                                            } else {
+                                              panel.style.maxHeight = panel.scrollHeight + "px";
+                                            }
+                                          });
+                                        }
+                                    </script>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}

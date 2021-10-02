@@ -132,7 +132,7 @@ if n % 2 == 1:
     print("Weird")
 elif n % 2 == 0 and 2 <= n <= 5:
 
-```    print("Not Weird")
+    print("Not Weird")
 elif n % 2 == 0 and 6 <= n <= 20:
     print("Weird")
 else:
@@ -1020,6 +1020,136 @@ var rotate = function() {
 
 }
 ```
+
+### 41. https://www.hackerrank.com/challenges/list-comprehensions/problem
+```
+if __name__ == '__main__':
+    x = int(raw_input())
+    y = int(raw_input())
+    z = int(raw_input())
+    n = int(raw_input())
+    output = [];
+    abc = [];
+    for X in range(x+1):
+        for Y in range(y+1):
+            for Z in range(z+1):
+                if X+Y+Z != n:
+                    abc = [X,Y,Z];
+                    output.append(abc);
+    print(output);
+```
+
+### 42. https://www.hackerrank.com/challenges/js10-loops/problem
+```
+'use strict';
+
+process.stdin.resume();
+process.stdin.setEncoding('utf-8');
+
+let inputString = '';
+let currentLine = 0;
+
+process.stdin.on('data', inputStdin => {
+    inputString += inputStdin;
+});
+
+process.stdin.on('end', _ => {
+    inputString = inputString.trim().split('\n').map(string => {
+        return string.trim();
+    });
+    
+    main();    
+});
+
+function readLine() {
+    return inputString[currentLine++];
+}
+
+/*
+ * Complete the vowelsAndConsonants function.
+ * Print your output using 'console.log()'.
+ */
+function vowelsAndConsonants(s) {
+    
+}
+
+function vowelsAndConsonants(s) {
+  const vowels = ["a", "e", "i", "o", "u"];
+  const string = s.split("");
+  let vowelArr = [];
+  let consonantArr = [];
+  for (let i = 0; i < string.length; i++) {
+    vowels.includes(string[i])
+      ? vowelArr.push(string[i])
+      : consonantArr.push(string[i]);
+  }
+  for (let i = 0; i < vowelArr.length; i++) {
+    console.log(vowelArr[i]);
+  }
+  for (let i = 0; i < consonantArr.length; i++) {
+    console.log(consonantArr[i]);
+  }
+}
+
+
+function main() {
+    const s = readLine();
+    
+    vowelsAndConsonants(s);
+}
+```
+
+### 43. https://www.hackerrank.com/challenges/js10-count-objects/problem
+```
+'use strict';
+
+process.stdin.resume();
+process.stdin.setEncoding('utf-8');
+
+let inputString = '';
+let currentLine = 0;
+
+process.stdin.on('data', inputStdin => {
+    inputString += inputStdin;
+});
+
+process.stdin.on('end', _ => {
+    inputString = inputString.trim().split('\n').map(string => {
+        return string.trim();
+    });
+    
+    main();    
+});
+
+function readLine() {
+    return inputString[currentLine++];
+}
+
+/*
+ * Return a count of the total number of objects 'o' satisfying o.x == o.y.
+ * 
+ * Parameter(s):
+ * objects: an array of objects with integer properties 'x' and 'y'
+ */
+function getCount(objects) {
+    
+}
+
+function getCount(objects) {
+  let pairCount = 0;
+  for (let i = 0; i < objects.length; i++) {
+    if (objects[i].x === objects[i].y) {
+      pairCount++;
+    }
+  }
+  return pairCount;
+}
+
+
+```
+
+### 44.
+
 
 
 

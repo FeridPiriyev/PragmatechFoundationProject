@@ -1,0 +1,184 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="nv">
+                        <div class="col-12">
+                            <div class="back">
+                                <img src="{{url_for('static', filename='img/umumi.jpg')}}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="haq">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="haqqinda">
+                        <div class="col-6">
+                            <img src="{{url_for('static', filename='img/nv.jpg')}}" alt="">
+                        </div>
+                        <div class="col-6">
+                            <h1>BEAUTY WITH BENEFITS</h1>
+                            <h1>Formulated with the Jeunesse-exclusive, proprietary APT-200, NV includes a skin-perfecting primer, foundation and bronzer that give you an enviable, professional airbrush finish.</h1>
+                            <h1>Want enviable results? Learn how!</h1>
+                            <a href="#" type="button" class="learn-btn">WATCH VIDEO</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="video-age">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="video">
+                        <video controls>
+                            <source src="{{url_for('static', filename='video/nv.mp4')}}" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="after">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="before">
+                        <h1 id="bef">EASY PROFESSIONAL AIRBRUSHED LOOK IN SECONDS</h1>
+                        <p id="af">Achieve that professional, airbrushed look without the airbrush. NV BB Perfecting Mist Foundation blurs skin imperfections and delivers photo-ready coverage fast.</p>
+                        <div class="nv-image">
+                            <div class="col-4">
+                                <img src="{{url_for('static', filename='img/af.jpg')}}" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img src="{{url_for('static', filename='img/be.jpg')}}" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img src="{{url_for('static', filename='img/ore.jpg')}}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sonluq">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="son">
+                        <div class="col-6">
+                            <h1 id="esas">1.PREPARE</h1>
+                            <p id="sonluq">Shake bottle for 5 seconds.</p>
+                            <h1 id="esas">2.CONCEAL</h1>
+                            <p id="sonluq">Mist into palm, then blend into skin with fingertip or NV puff.</p>
+                            <h1 id="esas">3.APPLY</h1>
+                            <p id="sonluq">Close eyes, hold bottle 8 inches from face and evenly mist the center of face in zig-zag motion.</p>
+                            <h1 id="esas">4. BLEND</h1>
+                            <p id="sonluq">Wait 10 seconds before blending foundation with NV puff.</p>
+                            
+
+                        </div>
+                        <div class="col-6">
+                            <img src="{{url_for('static', filename='img/3nv.png')}}" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="almaq">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="almaq">
+                        <div class="primer">
+                            <div class="col-6">
+                                <img src="{{url_for('static', filename='img/primer.jpg')}}" alt="">
+                            </div>
+                            <div class="col-6">
+                                <h1>NV Primer</h1>
+                                <p>TL740 Buy Now Price</p>
+                                <p>Buy Now Price (VAT Inclusive)</p>
+                                <form action="">
+                                    <input type="number" class="number">
+                                </form>
+                                <a href="#" type="button" class="learn-btn">ADD TO CART</a>
+                            </div>
+                        </div>
+                        <div class="bronzer">
+                            <div class="col-6">
+                                <img src="{{url_for('static', filename='img/bronzer.jpg')}}" alt="">
+                            </div>
+                            <div class="col-6">
+                                <h1>NV Bronzer</h1>
+                                <p>TL740 Buy Now Price</p>
+                                <p>Buy Now Price (VAT Inclusive)</p>
+                                <form action="">
+                                    <input type="number" class="number">
+                                </form>
+                                <a href="#" type="button" class="learn-btn">ADD TO CART</a>
+                            </div>
+                        </div>
+                        <div class="blue">
+                            <div class="col-6">
+                                <img src="{{url_for('static', filename='img/blue.jfif')}}" alt="">
+                            </div>
+                            <div class="col-6">
+                                <h1>NV BB Perfecting Mist Foundation</h1>
+                                <p>NV BB Perfecting Mist Foundation - Warm Beige (W3)</p>
+                                <p>TL610.69 Buy Now Price</p>
+                                <form action="">
+                                    <input type="number" class="number">
+                                </form>
+                                <p>NV BB Perfecting Mist Foundation - Cool Sand (N6)</p>
+                                <a href="#" type="button" class="learn-btn">ADD TO CART</a>
+                                <p id="hq">Instantly Ageless is a powerful anti-wrinkle microcream that works quickly and effectively to diminish the visible signs of aging.</p>
+                                <p id="hq">SIZE: 25 vials ( 5 strips of 5 multi-use vials) - 0.6 ml each (15 ml total)</p>
+                                <button class="accordion">INGREDIENTS</button>
+                                <div class="panel">
+                                    <p>
+                                        Aqua, Sodium Silicate, Argilla, Phenoxyethanol, CI 19140, CI 16035, Ethylhexylglycerin, Potassium Sorbate, Acetyl Hexapeptide-8
+                                    </p>
+                                </div>
+                        </div>
+                        
+                            <script>
+                                var acc = document.getElementsByClassName("accordion");
+                                var i;
+                                
+                                for (i = 0; i < acc.length; i++) {
+                                  acc[i].addEventListener("click", function() {
+                                    this.classList.toggle("active");
+                                    var panel = this.nextElementSibling;
+                                    if (panel.style.maxHeight) {
+                                      panel.style.maxHeight = null;
+                                    } else {
+                                      panel.style.maxHeight = panel.scrollHeight + "px";
+                                    }
+                                  });
+                                }
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}

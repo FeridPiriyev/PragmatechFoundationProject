@@ -1,0 +1,91 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+        <!--CSS-->
+        
+
+    <!--Video-->
+    <div class="section">  
+        <h1>SEANESSE</h1>
+        <!-- h1-i positonu absalute elə -->
+        <div class="video-container">
+            <video autoplay loop muted>
+                <source src="{{url_for('static', filename='video/Seanesse.mp4')}}" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    
+    <!--Slider-->
+    <div class="basliq">
+        <h1>We are passionate about redefining youth through our revolutionary products and life‑changing opportunities.</h1>
+    </div>
+    
+                    <div class="main-carousel">
+                        {% for info in slid %}
+                        
+                            <div class="cell"><img src="../static/img/{{info.image}}"></div>
+
+                        {% endfor %}
+
+                        
+                    </div>
+
+
+    
+
+
+
+
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <script type="text/javascript">
+        $('.main-carousel').flickity({
+        // options
+        cellAlign: 'left',
+        wrapAround:true,
+        freeScroll: true
+        });
+    </script>
+
+    <section id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="blog">
+                    {% for info in produc %}
+                        
+                    
+                    <div class="col-4">
+                        <img src="../static/img/{{info.image}}" alt="">
+                        <h1>{{info.title}}</h1>
+                        <h1 id="date">
+                            {{info.created_at}}
+                        </h1>
+                        <p>{{info.short_description}}</p>
+                        <a style="display:inline-block;" href="{{url_for('building')}}"><button id="devam">Devam</button></a>
+                    </div>
+                    {% endfor %}   
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Icon bar-->
+    <div class="icons">
+        <ul>
+            <a href="#"><li class="instagram"><i class="fab fa-instagram"></i></li></a>
+            <a href="#"><li class="whatsapp"><i class="fab fa-whatsapp"></i></li></a>
+        </ul>
+    </div>
+
+
+
+
+
+
+    <!--Footer Start-->
+
+    
+{% endblock %}
