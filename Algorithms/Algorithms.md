@@ -86,7 +86,20 @@ nums.sort(reverse=True)
 print(nums)
 ```
 
-### 9. Reqemlerinin cemi en boyuk
+### 9. Siyahıdakı ədədlərin hasili
+```
+def multiplyList(myList) :
+     
+    result = 1
+    for x in myList:
+         result = result * x
+    return result
+     
+list1 = [1,2,3,6,7,8,23,78,34,12]
+print(multiplyList(list1))
+```
+
+### 10. Reqemlerinin cemi en boyuk
 ```
 nums=[1,2,3,6,7,8,23,78,34,12,43]
 reqemCemiMassivi=[]
@@ -97,7 +110,7 @@ for num in nums:
     reqemCemiMassivi.append(sum)
 ```
 
-### 10.Ədədlərin kvadratı
+### 11.Ədədlərin kvadratı
 
 ```
 nums=[1,2,3,6,7,8,23,78,34,12]
@@ -108,7 +121,7 @@ for eded in nums:
 
 print(numsKvadrat)
 ```
-### 11. Tək ədədlər
+### 12. Tək ədədlər
 
 ```
 nums = [1,2,3,6,7,8,23,78,34,12]
@@ -119,13 +132,23 @@ for tek in nums:
 print(tekolan)
 ```
 
-### 12.https://www.hackerrank.com/challenges/py-hello-world/problem
+### 13. Cüt ədədlər
+```
+nums = [1,2,3,6,7,8,23,78,34,12]
+cutolan=[]
+for cut in nums:
+    if cut%2==0:
+        cutolan.append(cut)
+print(cutolan)
+```
+
+### 14.https://www.hackerrank.com/challenges/py-hello-world/problem
 ```
 print "Hello, World!"
 ```
 
 
-### 13.https://www.hackerrank.com/challenges/py-if-else/problem
+### 15.https://www.hackerrank.com/challenges/py-if-else/problem
 ```
 n = int(input())
 if n % 2 == 1:
@@ -138,7 +161,7 @@ elif n % 2 == 0 and 6 <= n <= 20:
 else:
     print("Not Weird")
 ```
-### 14. https://www.hackerrank.com/challenges/python-arithmetic-operators/problem
+### 16. https://www.hackerrank.com/challenges/python-arithmetic-operators/problem
 ```
 a = int(raw_input())
 b = int(raw_input())
@@ -147,7 +170,7 @@ print(a-b)
 print(a*b)
 
 ```
-### 15.https://www.hackerrank.com/challenges/python-division/problem
+### 17.https://www.hackerrank.com/challenges/python-division/problem
 ```
 if __name__ == '__main__':
     a = int(input())
@@ -156,7 +179,7 @@ if __name__ == '__main__':
     print(a/b)
 ```
 
-### 16. https://www.hackerrank.com/challenges/python-print/problem
+### 18. https://www.hackerrank.com/challenges/python-print/problem
 ```
 from __future__ import print_function
 
@@ -168,7 +191,7 @@ for i in range (n):
 ```
 
 
-### 17. https://www.hackerrank.com/challenges/python-loops/problem
+### 19. https://www.hackerrank.com/challenges/python-loops/problem
 ```
 if __name__ == '__main__':
     n = int(raw_input())
@@ -177,7 +200,7 @@ if __name__ == '__main__':
         print(i*i)
 ```
 
-### 18. https://www.hackerrank.com/challenges/write-a-function/problem
+### 20. https://www.hackerrank.com/challenges/write-a-function/problem
 ```
 def is_leap(a):
     if a %400==0:
@@ -195,7 +218,7 @@ year = int(input())
 print(is_leap(year))
 ```
 
-### 19. https://www.hackerrank.com/challenges/solve-me-first/problem
+### 21. https://www.hackerrank.com/challenges/solve-me-first/problem
 ```
 def solveMeFirst(a,b):
 	return a+b
@@ -207,7 +230,7 @@ res = solveMeFirst(a,b)
 print res
 ```
 
-### 20. https://www.hackerrank.com/challenges/js10-hello-world/problem
+### 23. https://www.hackerrank.com/challenges/js10-hello-world/problem
 ```
 'use strict';
 
@@ -256,7 +279,7 @@ function main() {
 }
 ```
 
-### 21.https://www.hackerrank.com/challenges/30-hello-world/problem
+### 24.https://www.hackerrank.com/challenges/30-hello-world/problem
 
 ```
 function processData(inputString) {
@@ -280,7 +303,7 @@ process.stdin.on("end", function () {
 });
 ```
 
-### 22.Siyahıdakı ədədlərin cəmi (8, 2, 3, 0, 7)
+### 25.Siyahıdakı ədədlərin cəmi (8, 2, 3, 0, 7)
 ```
 nums=[8, 2, 3, 0, 7]
 sum=0
@@ -289,7 +312,7 @@ for eded in nums:
 print(sum)
 ```
 
-### 22.Siyahıdakı ədədlərin hasili (8, 2, 3, -1, 7)
+### 26.Siyahıdakı ədədlərin hasili (8, 2, 3, -1, 7)
 ```
 def multiplyList(myList) :
      
@@ -302,7 +325,7 @@ list1 = [8, 2, 3, -1, 7]
 print(multiplyList(list1))
 ```
 
-### 24.Siyahıdakı elementlərin sonuncusu
+### 27.Siyahıdakı elementlərin sonuncusu
 ```
 test_list = [1,24,26,17,76,9]
   
@@ -316,7 +339,7 @@ if i == (len(test_list)-1):
 + str(test_list[i]))
 ```
 
-### 25. Siyahıdakı cüt ədədlər
+### 28. Siyahıdakı cüt ədədlər
 ```
 nums = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 cutolan=[]
@@ -326,7 +349,7 @@ for cut in nums:
 print(cutolan)
 ```
 
-### 26.Daxil olunan bütün ədədlər toplansın
+### 29.Daxil olunan bütün ədədlər toplansın
 ```
 sum=0
 nocount=0
@@ -346,7 +369,7 @@ while True:
 print(f"sum : {sum}")
 ```
 
-### 27.https://www.hackerrank.com/challenges/js10-if-else/problem
+### 30.https://www.hackerrank.com/challenges/js10-if-else/problem
 ```
 'use strict';
 
@@ -392,7 +415,7 @@ function main() {
 }
 ```
 
-### 28.https://www.hackerrank.com/challenges/js10-data-types/problem
+### 31.https://www.hackerrank.com/challenges/js10-data-types/problem
 ```
 'use strict';
 
@@ -454,7 +477,7 @@ function performOperation(secondInteger, secondDecimal, secondString) {
 
 ```
 
-### 29. https://www.hackerrank.com/challenges/js10-arithmetic-operators/problem
+### 32. https://www.hackerrank.com/challenges/js10-arithmetic-operators/problem
 ```
 'use strict';
 
@@ -520,7 +543,7 @@ function main() {
 }
 ```
 
-### 30. https://www.hackerrank.com/challenges/js10-function/problem
+### 33. https://www.hackerrank.com/challenges/js10-function/problem
 ```
 'use strict';
 
@@ -563,7 +586,7 @@ function main() {
 }
 ```
 
-### 31. https://www.hackerrank.com/challenges/30-data-types/problem
+### 34. https://www.hackerrank.com/challenges/30-data-types/problem
 
 ```
 i = 4
@@ -581,7 +604,7 @@ print(d+input_double)
 print(s+input_string)
 ```
 
-### 32. https://www.hackerrank.com/challenges/js10-objects/problem
+### 36. https://www.hackerrank.com/challenges/js10-objects/problem
 
 ```
 'use strict';
@@ -635,7 +658,7 @@ function main() {
 }
 ```
 
-### 33. https://www.hackerrank.com/challenges/js10-let-and-const/problem
+### 37. https://www.hackerrank.com/challenges/js10-let-and-const/problem
 ```
 'use strict';
 
@@ -686,7 +709,7 @@ function main() {
 }
 ```
 
-### 34. https://www.hackerrank.com/challenges/js10-switch/problem
+### 38. https://www.hackerrank.com/challenges/js10-switch/problem
 ```
 'use strict';
 
@@ -743,7 +766,7 @@ function main() {
     console.log(getLetter(s));
 }
 ```
-### 35. https://www.hackerrank.com/challenges/js10-arrays/problem
+### 39. https://www.hackerrank.com/challenges/js10-arrays/problem
 ```
 'use strict';
 
@@ -796,7 +819,7 @@ function main() {
 }
 ```
 
-### 36. https://www.hackerrank.com/challenges/js10-throw/problem
+### 40. https://www.hackerrank.com/challenges/js10-throw/problem
 ```
 'use strict';
 
@@ -833,7 +856,7 @@ function isPositive(a) {
 
 ```
 
-### 37. https://www.hackerrank.com/challenges/js10-try-catch-and-finally/problem
+### 41. https://www.hackerrank.com/challenges/js10-try-catch-and-finally/problem
 ```
 'use strict';
 
@@ -885,7 +908,7 @@ function main() {
 }
 ```
 
-### 38. https://www.hackerrank.com/challenges/js10-class/problem
+### 42. https://www.hackerrank.com/challenges/js10-class/problem
 ```
 /*
  * Implement a Polygon class with the following properties:
@@ -910,7 +933,7 @@ console.log(square.perimeter());
 console.log(pentagon.perimeter());
 ```
 
-### 39. https://www.hackerrank.com/challenges/js10-create-a-button?hr_b=1
+### 43. https://www.hackerrank.com/challenges/js10-create-a-button?hr_b=1
 ## HTML
 ```
 <!DOCTYPE html>
@@ -941,7 +964,7 @@ function button(){
 }
 ```
 
-### 40. https://www.hackerrank.com/challenges/js10-buttons-container?hr_b=1
+### 44. https://www.hackerrank.com/challenges/js10-buttons-container?hr_b=1
 ## HTML
 ```
 <!DOCTYPE html>
@@ -1021,7 +1044,7 @@ var rotate = function() {
 }
 ```
 
-### 41. https://www.hackerrank.com/challenges/list-comprehensions/problem
+### 45. https://www.hackerrank.com/challenges/list-comprehensions/problem
 ```
 if __name__ == '__main__':
     x = int(raw_input())
@@ -1039,7 +1062,7 @@ if __name__ == '__main__':
     print(output);
 ```
 
-### 42. https://www.hackerrank.com/challenges/js10-loops/problem
+### 46. https://www.hackerrank.com/challenges/js10-loops/problem
 ```
 'use strict';
 
@@ -1099,7 +1122,7 @@ function main() {
 }
 ```
 
-### 43. https://www.hackerrank.com/challenges/js10-count-objects/problem
+### 47. https://www.hackerrank.com/challenges/js10-count-objects/problem
 ```
 'use strict';
 
@@ -1148,7 +1171,79 @@ function getCount(objects) {
 
 ```
 
-### 44.
+### 48. https://www.hackerrank.com/challenges/30-operators/problem
+
+```
+import math
+import os
+import random
+import re
+import sys
+
+def solve(meal_cost, tip_percent, tax_percent):
+    tip = meal_cost * tip_percent / 100
+    tax = meal_cost * tax_percent / 100
+    total_cost = meal_cost + tip + tax
+    
+    print(round(total_cost))
+
+if __name__ == '__main__':
+    meal_cost = float(input())
+
+    tip_percent = int(input())
+
+    tax_percent = int(input())
+ 
+    solve(meal_cost, tip_percent, tax_percent)
+```
+
+### 49. https://www.hackerrank.com/challenges/30-conditional-statements/problem
+```
+import math
+import os
+import random
+import re
+import sys
+
+
+
+
+if __name__ == '__main__':
+    N = int(input().strip())
+    
+    if N%2 != 0:
+        print("Weird")
+    else:
+        if N>=2 and N<5:
+            print("Not Weird")
+    
+        if N>=6 and N<=20:
+            print("Weird")
+    
+        if N>20:
+            print("Not Weird")
+```
+
+### 50. https://www.hackerrank.com/challenges/30-loops/problem
+```
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+
+if __name__ == '__main__':
+    n = int(input())
+    
+    for i in range(1,11):
+        s = n * i
+        print(n,"x",i,"=",s)
+
+```
+
 
 
 

@@ -76,7 +76,7 @@ def admin():
 
 
 
-@app.route('/slide' , methods=["GET" , "POST"])
+@app.route('/slide-add' , methods=["GET" , "POST"])
 def slides():
     
     if request.method=="POST":
@@ -91,8 +91,6 @@ def slides():
         db.session.commit()
         return redirect(url_for("index"))
     return render_template('admin/addslide.html')
-
-
 
 @app.route('/update/<int:id>', methods=['GET','POST'])
 def edit(id):
@@ -111,6 +109,9 @@ def edit(id):
     return render_template('admin/product-edit.html', product=product)
 
 
+
+
+
 @app.route('/admin-delete') 
 def adminpanel():
     products = Product.query.all()
@@ -124,3 +125,17 @@ def admin_product_delete(id):
     db.session.commit()
     return redirect(url_for("adminpanel"))
 
+
+
+
+@app.route('/slide') 
+def slidepanel():
+    slide = Silde.query.all()
+    return render_template('admin/slide-list.html',slide=slide)
+
+@app.route('/admin/slide-delete/<int:id>', methods=['GET','POST'])
+def admin_slide_delete(id):
+    slide = Silde.query.get_or_404(id)
+    db.session.delete(slide)
+    db.session.commit()
+    return redirect(url_for("slidepanel"))

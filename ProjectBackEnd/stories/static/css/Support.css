@@ -72,7 +72,7 @@ section{
     align-items: center;
     justify-content: center;
     text-align: right;
-    position: relative;
+    
 }
 
 .menuyan ul li{
@@ -81,7 +81,7 @@ section{
 }
 
 .menu .menuyan ul li a{
-    color: #b5b5b5;
+    color: black;
     margin: 15px;
 }
 
@@ -98,7 +98,7 @@ section{
 
 .contact h1{
     font-size: 28px;
-    color: #98a4b0;
+    color: black;
     text-align: left;
     margin: 10px;
     padding: 50px;
@@ -130,130 +130,11 @@ section{
     font-size: 90px;
 }
 
-
-
-/* Contact End */
-
-
-
-/*  Footer start*/
-footer{
-    background-color: #f5f5f5;
-}
-
-.son{
-    display: flex;
-    padding: 50px 0;
-}
-
-
-.col img{
-    width: 70px;
-    height: 70px;
-}
-
-
-
-.col p{
-    font-size: 12px;
-    color: #b6b6b4;
-}
-
-.col .affiiates img{
-    height: 50px;
-    width: 40px;
-    margin: 5px;
-}
-
-.col .affiiates .qr-code img{
-    width: 100px;
-    height: 100px;
-}
-
-
-.connect ul{
-    display: flex;
-}
-
-.col a i{
-    color: white;
-    font-size: inherit;
-}
-
-.footer-icons {
-    width: 185px;
-    display: flex;
-    justify-content: space-around;
-    color: #1c1919;
-    list-style: none;
-}
-.footer-icons li{
-    border-radius: 15%;
-    width: 40px;
-    height: 40px;
-    color: white;
-    margin-top: 20px;
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 10px;
-}
-.footer-icons li:hover{
+.us .col-4 ul a{
     color: black;
-    background-color: #3155a4;
-    transition: all ease 0s;
 }
 
 
-.col h1{
-    font-size: 15px;
-    color: #b8b8b8;
-    font-family: sans-serif;
-}
 
-.col button{
-    display: inline-block;
-    text-decoration: none;
-    color: black;
-    padding: 8px 30px;
-    font-size: 13px;
-    background: transparent;
-    position: relative;
-    cursor: pointer;
-
-}
-
-.col button:hover{
-    transition: 1s;
-    background: #E3E3E3;
-}
-.footerson ul{
-    list-style: none;
-    display: flex;
-    margin: 20px;
-    text-align: center;
-    
-}
-
-.footerson ul li{
-    margin: 10px 20px;
-    font-size: 13px;
-    text-align: center;
-}
-
-
-.container ul li a{
-    color: #444444;
-}
-
-
-.footer-bottom {
-    background-color: #f5f5f5;
-    padding: 15px 0 5px;
-    height: 55px;
-
-}
-/*Footer End*/
 
 

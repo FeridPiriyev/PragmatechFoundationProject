@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body{
+    position: relative;
+}
+
 .menu .brand img{
    font-size: 16px;
 }
@@ -15,6 +19,7 @@
     justify-content: space-between;
     align-items: center;
     z-index: 20;
+    position: relative;
 }
 
 .menuyan{
@@ -26,13 +31,11 @@
     align-items: center;
     justify-content: center;
     text-align: right;
-    position: relative;
 }
 
 .menuyan .menuad li a{
     color: #b5b5b5;
     font-size: 20px;
-    position: relative;
 }
 
 .menu .menuyan ul li a{
@@ -53,24 +56,37 @@
 
 /* Mega Menu Start */
 
-#megam-box{
+body{
     position: relative;
+
 }
 
-#megam-box:hover #megamenu,#megamenu:hover{
-    display: flex;
+#megam-box:hover #megamenu{
+    visibility: visible;
 }
 
 #megamenu{
-    display: none;
-    margin: 0;
+    position:absolute;
+    top: 47px;
+    left: 0;
+    visibility: hidden;
+    margin-left: 150px;
     padding: 0;
     list-style: none;
     z-index: 7;
     background-color: white;
     height: 300px;
-    width: 1400px;
+    width: 1000px;
 }
+
+.fas.fa-bars{
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 5%;
+}
+
+
 
 #megamenu .menu-item{
     display: flex;
@@ -88,7 +104,12 @@
 
 
 .menuyan #megam-box a{
-    margin: 30px;
+    margin: 25px;
+
+}
+
+.menuyan ul li a{
+    text-decoration: none;
 }
 
 
@@ -273,15 +294,15 @@ footer{
 }
 
 .col a i{
-    color: white;
     font-size: inherit;
+    color:white;
 }
 
 .footer-icons {
     width: 185px;
     display: flex;
     justify-content: space-around;
-    color: #1c1919;
+    color: white;
     list-style: none;
 }
 .footer-icons li{
@@ -309,21 +330,20 @@ footer{
     font-family: sans-serif;
 }
 
-.col button{
+footer .col .buy button{
     display: inline-block;
     text-decoration: none;
-    color: black;
-    padding: 8px 30px;
+    background-color:rgba(0, 0, 0, 0.281);
+    padding: 8px 8px;
     font-size: 13px;
-    background: transparent;
     position: relative;
     cursor: pointer;
 
 }
 
-.col button:hover{
+.col .buy button:hover{
     transition: 1s;
-    background: #E3E3E3;
+    background: #e3e3e3;
 }
 .footerson ul{
     list-style: none;
@@ -352,8 +372,8 @@ footer{
 }
 
 .col a{
-    color: black;
-    font-family: serif;
+    color: white;
+    font-size: 15px;
 }
 .hq h1{
     color: black;

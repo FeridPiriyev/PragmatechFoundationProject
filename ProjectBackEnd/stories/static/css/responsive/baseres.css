@@ -1,0 +1,23 @@
+@media only screen and (max-width:992px) {
+    .fas.fa-bars{
+        display:block;
+        color:black;
+    }
+    .menuyan{
+        display:none;
+        background-color:white;
+        z-index: 999999;
+    }
+    .menuyan ul{
+        display: flex;
+        background-color: white;
+        flex-direction: column;
+        position: absolute;
+        top: 90px;
+        left: 10%;
+        width: 80%;
+    }
+    .active{
+        display: block;
+    }
+}

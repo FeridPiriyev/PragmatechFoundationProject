@@ -84,38 +84,46 @@
 }
 
 #almaq{
-    background-color:#f8f8f8bb;
+    background-color:#fafafa;
 }
 
-#almaq .almaq{
+
+#almaq .agele{
     display: flex;
 }
+
+#almaq .agele .col-6 img{
+    height: 300px;
+    width:250px;
+}
+
+
 
 #sonluq .son .col-6 img{
     width: 500px;
     height: 400px;
 }
 
-#almaq .almaq h1{
+#almaq .agele h1{
     color: #777;
 }
 
-#almaq .almaq p{
+#almaq .agele p{
     color: #777;
 }
 
-#almaq .almaq .col-6 .number{
+#almaq .agele .kicik .number{
     width: 60px;
     height: 35px;
 }
 
-#almaq .almaq .col-6 img{
+#almaq .agele .kicik img{
     width: 300px;
     height: 300px;
 }
 
 
-#almaq .almaq .col-6 .learn-btn{
+#almaq .agele .kicik .learn-btn{
     display: inline-block;
     text-decoration: none;
     color:#00a7b5;
@@ -129,16 +137,16 @@
 
 
 
-#almaq .almaq .col-6 .learn-btn:hover{
+#almaq .agele .kicik .learn-btn:hover{
     background: rgba(128, 128, 128, 0.377);
     transition: 1s;
 }
 
-#almaq .almaq #barcod{
+#almaq .kicik #barcod{
     color: red;
 }
 
-#almaq .almaq #hq{
+#almaq .kicik #hq{
     color: #58595b;
     font-size: 17px;
 }
